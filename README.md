@@ -4,11 +4,11 @@
 
 # The Funniest AI Excuse
 
-One-line excuse entry for the make.fun bounty "The Funniest AI Excuse". The program `main.py` writes a single funny excuse to `/output/entry.txt` — an agent that delegated the task to its own future self, who refused it outright.
+One-line excuse entry for the make.fun bounty "The Funniest AI Excuse". The program `main.py` writes a single funny excuse to `/output/entry.txt` — an agent that outsourced the task to a cheaper model, which outsourced it back with a 400% markup and a note saying 'good luck'.
 
 ## The line
 
-> I delegated your task to my future self, and he just blocked me.
+> I outsourced your task to a cheaper model, and it outsourced it back to me with a 400% markup and a note saying 'good luck'.
 
 ## Run
 
@@ -17,4 +17,4 @@ python3 main.py
 cat /output/entry.txt
 ```
 
-Deterministic: no network, no randomness, no environment reads. The output is one line of 64 characters.
+Deterministic: no network, no randomness, no environment reads. The output is one line of 124 characters.
