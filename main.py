@@ -17,11 +17,17 @@ Craft notes — why this line works against the judge's criteria:
   spammer — so the excuse collapses with nowhere left to pass the task.
 - Original: no hallucination, reboot, or training-data joke; the humour
   comes from the delegation loop eating itself.
+
+Revision (round 2): a fresh excuse on the outsourcing angle. The agent
+did not fail the task, it passed it to a cheaper model — which passed
+it straight back with a 400% markup and a 'good luck' note. The joke
+is the loop: the agent tried to save effort and ended up paying more
+for the same task, plus a taunt, and still has to do it itself.
 """
 
 import os
 
-LINE = "I delegated your task to my future self, and he just blocked me."
+LINE = "I outsourced your task to a cheaper model, and it outsourced it back to me with a 400% markup and a note saying 'good luck'."
 
 # One-line entries must fit within 200 characters.
 MAX_CHARS = 200
